@@ -32,7 +32,7 @@ if ( !empty($dbv2) ) {
 }
 
 // Determine active theme default to cats                                                                                                         
-$_SESSION['selector'] = 'cats';
+$_SESSION['selector'] = 'cities';
 $selector = getenv('SELECTOR');
 
 if ( !empty($selector) ) {                                                                                                                     
